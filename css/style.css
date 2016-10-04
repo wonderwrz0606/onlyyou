@@ -3,6 +3,26 @@ body{
   float: none;
   margin: auto;
 }
+
+.content{
+  margin: 50px 0px;
+}
+
+.page-bg{
+  background:url('../media/background.jpg');
+  -webkit-filter: blur(10px);
+-moz-filter: blur(10px);
+-o-filter: blur(10px);
+-ms-filter: blur(10px);
+filter: blur(10px);
+position:fixed;
+width:100%;
+height:100%;
+top:0;
+left:0;
+z-index:-1;
+}
+
 #portfolio {
     margin: 1rem 0;
     -webkit-column-count: 3;
@@ -106,4 +126,12 @@ p:hover {
 }
 @keyframes love {
   0%{top:110%}
+}
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+.thumbnail {
+    border: 0px solid #ddd;
 }
