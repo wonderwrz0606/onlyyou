@@ -1,8 +1,3 @@
-$(function() {
-	$('#photos').hide();
-	$('#photos').delay(15000).fadeIn('slow');
-});
-
 $(function(){
 	var love = setInterval(function(){
 	  var r_num = Math.floor(Math.random() * 40) + 1;
@@ -23,4 +18,7 @@ $(function(){
 	    }
 	  });
 	},3000);
+
+	$('#photos').hide();
+	$('#photos').delay(15000).fadeIn('slow');
 });
