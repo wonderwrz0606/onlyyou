@@ -1,2 +1,4 @@
 #Ignore media folder
-/media/
+media/*.mov
+media/*.MOV
+media/*.mp4
