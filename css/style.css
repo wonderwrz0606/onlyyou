@@ -8,6 +8,10 @@ body{
   margin: 50px 0px;
 }
 
+.padding-row{
+  padding: 40px 0px;
+}
+
 .page-bg{
   background:url('../media/background.jpg');
   -webkit-filter: blur(10px);

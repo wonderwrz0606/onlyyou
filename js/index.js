@@ -1,4 +1,6 @@
 $(function(){
+	var width = $(photos).width();
+	$('video').width(width);
 	var love = setInterval(function(){
 	  var r_num = Math.floor(Math.random() * 40) + 1;
 		var r_size = Math.floor(Math.random() * 65) + 10;
